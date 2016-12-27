@@ -22,5 +22,8 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.wuxianedu.wuxianedugit", appContext.getPackageName());
+        assertEquals("com.wuxianedu.wuxianedugit", appContext.getPackageName());
+        assertEquals("com.wuxianedu.wuxianedugit", appContext.getPackageName());
+        assertEquals("com.wuxianedu.wuxianedugit", appContext.getPackageName());
     }
 }
